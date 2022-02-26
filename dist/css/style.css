@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.blue {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    position: absolute;   
+}
+
+.background-image {
+    width: 100%;
+    height: 400px;
+    opacity: .7; 
+}
+
+.NavBar {
+height: 60px;
+position: relative;
+width: 100%;
+display: flex;
+}
+
+.NavBar h6 {
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+margin: 20px;
+width: 100px;
+margin-left: 50px;
+}
+
+
+ul {
+list-style-type: none;
+display: flex;
+margin-left: 45%;
+height: 30px;
+padding-top: 25px;
+}
+
+  i {
+    color: red;
+}
+
+li  {
+font-family: 'Raleway', sans-serif;
+display: flex;
+align-items: center;
+width: 125px;
+height: 35px;
+text-align: center;
+margin:0px 5px; 
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    width: 125px;
+}
+
+li:hover {
+    background-color: rgb(39, 103, 112);
+    opacity: 0.5;
+    display: flex;
+}
+
+.center {
+width: 100%;
+margin: 0 auto;
+display: inline-block;
+height: 435px;
+margin-bottom: 20px;
+position: absolute;
+}
+
+.center h4 {
+text-align: center;
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+color: white;
+margin: 0 auto;
+height: 50px;
+ }
+
+ .center h3 {
+text-align: center;
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+color: white;
+margin: 50px auto;
+height: 50px;
+float: center;
+font-family: 'Lato', sans-serif;
+}
+    
+.center p {
+justify-content: center;
+text-align: center;
+display: flex;
+color: white;
+width: 50%;
+margin: -30px auto;
+}
+
+.button {
+justify-content: center;
+text-align: center;
+margin: 0 auto;
+position: absolute;
+width: 100%;
+margin-top: 4%;
+}
+
+input {
+background-color: rgb(25, 162, 160);
+border: none;
+border-radius: 5px;
+padding: 10px;
+color: white;
+}
+
+.center span2 i {
+color: white;
+font-size: 50px;
+width: 100%;
+justify-content: center;
+display: flex;
+margin-top: 6.5%;
+position: absolute;
+height: 36px;
+}
+
+.white {
+background-color: white;
+height: 500px;
+width: 100%;
+display: flex;
+}
+
+.left {
+width: 33%;
+display: inline-block;
+height: 520px;
+}
+
+.left h3 {
+font-family: 'Shippori Antique B1', sans-serif;
+margin: 40px;
+position: absolute;
+}
+
+.line {
+content: '';
+margin-left: 40px;
+height: 2px;
+background: orange;
+width: 45px;
+margin-top: 70px;
+}
+
+.left .text {
+float: left;
+width: 65%;
+margin: 30px;
+color: lightgrey;
+}
+
+.left .bottom {
+width: 96%;
+height: 33%;
+margin-top: 275px;
+background-color: rgb(25, 171, 167);
+margin-left: 21px;
+display: flex;
+}
+
+.bottom h3 {
+color: white;
+
+}
+
+.bottom p {
+color: white;
+margin: 40px;
+margin-top: 80px;
+}
+
+.middle {
+width: 33%;
+height: 520px;
+display: inline-block;  
+}
+
+.middle .bottom {
+width: 99%;
+height: 33%;
+margin-top: 347px;
+background-color: rgb(25, 171, 167);
+margin-left: 3px;
+display: flex;
+}
+
+.middle .bottom h3 {
+color: white;
+font-family: 'Shippori Antique B1', sans-serif;
+margin: 40px;
+position: absolute;
+
+}
+
+.middle .bottom p {
+color: white;
+margin: 20px;
+margin-top: 80px;
+}
+
+.middle i {
+position: absolute;
+font-size: 40px;
+color: rgb(25, 171, 167);
+margin: 20px;
+}
+
+.middle h3 {
+position: absolute;
+margin: 30px;
+margin-top: 70px;
+}
+
+.middle .text {
+float: left;
+width: 65%;
+margin: 30px;
+color: lightgrey;
+margin-top: 100px;
+}
+
+.ambulance {
+position: absolute;
+margin-top: 150px;
+margin-right: 10px;
+}
+
+.emergency  {
+position: absolute;
+margin-top: 150px;
+width: 33%;
+}
+
+.middle .text2 {
+float: left;
+width: 65%;
+margin: 30px;
+color: lightgrey;
+margin-top: 60px;
+}
+
+
+
+.right {
+width: 33%;
+height: 520px;
+display: inline-block;
+}
+
+
+
+.right i {
+position: absolute;
+font-size: 40px;
+color: rgb(25, 171, 167);
+margin: 20px;
+}
+
+.right h3 {
+position: absolute;
+margin: 30px;
+margin-top: 70px;
+}
+
+.right .text {
+float: left;
+ width: 65%;
+ margin: 30px;
+color: lightgrey;
+margin-top: 100px;
+}
+
+.right .healthcare-logo {
+position: absolute;
+margin-top: 150px;
+margin-right: 10px;
+}
+
+.right .healthcare  {
+position: absolute;
+margin-top: 150px;
+width: 33%;
+}
+
+.right .text2 {
+float: left;
+width: 65%;
+margin: 30px;
+color: lightgrey;
+margin-top: 60px;
+}
+
+.right .bottom {
+width: 99%;
+height: 33%;
+margin-top: 347px;
+background-color: rgb(25, 171, 167);
+margin-left: 1px;
+display: flex;
+}
+
+.right .bottom h3 {
+color: white;
+font-family: 'Shippori Antique B1', sans-serif;
+margin: 40px;
+position: absolute;
+}
+
+.right table {
+color: white;
+}
+
+.table  {
+width: 300px;
+height: 100px;
+}
+
+table {
+margin-top: 70px;
+margin-left: 40px;
+}
+
+table td {
+border: 0.1px solid white;
+height: 28px;
+width: 200px;
+}
+
+.table span {
+float: right;
+align-items: center;
+}
